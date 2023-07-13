@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+#logo span {
+  font-size: 24px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+#menu a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#search-button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#search-icon{
+  height: 28.4px;
+  object-fit: cover;
+}
+
+#lgUniverso {
+  height: 23rem;
+}
+
+
+#content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#content h1 {
+  font-size: 36px;
+}
+
+#content h2 {
+  color: #00ffff;
+  font-family: 'Josefin Sans', Arial;
+  font-weight: 400;
+  vertical-align: baseline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#content p {
+  color: #ffffff;
+    font-family: Roboto, Arial;
+    font-size: 13.5pt;
+    font-weight: 400;
+    vertical-align: baseline;
+  margin-bottom: 20px;
+}
+
+#content h1 {
+  font-family: 'Amatic SC', Arial;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+#contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#contact-info {
+  margin-right: 50px;
+}
+
+#contact-info h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  flex-shrink: 0;
+  
+  margin-top: 14.2rem;
+}
+
+#footer p {
+  color: #ffffff;
+    font-family: Roboto, Arial;
+    font-size: 10.5pt;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Reduz o tamanho da fonte do corpo */
+  }
+
+  #logo img {
+    height: 30px; /* Reduz o tamanho do logotipo */
+  }
+
+  #logo span {
+    font-size: 18px; /* Reduz o tamanho do texto do logotipo */
+  }
+
+  #menu a {
+    font-size: 14px; /* Reduz o tamanho dos links do menu */
+  }
+
+  #search-icon {
+    height: 20px; /* Reduz o tamanho do ícone de pesquisa */
+  }
+
+  #content h1 {
+    font-size: 24px; /* Reduz o tamanho do título principal */
+  }
+
+  #content h2 {
+    font-size: 16px; /* Reduz o tamanho do subtítulo */
+    margin-bottom: 10px; /* Reduz a margem inferior do subtítulo */
+  }
+
+  #content p {
+    font-size: 12px; /* Reduz o tamanho do texto do conteúdo */
+    margin-bottom: 10px; /* Reduz a margem inferior do texto do conteúdo */
+  }
+
+  #contact {
+    flex-direction: column; /* Altera a direção do layout de contato para coluna */
+    align-items: center; /* Centraliza os itens de contato verticalmente */
+    margin-top: 30px; /* Reduz a margem superior do layout de contato */
+    margin-bottom: 30px; /* Reduz a margem inferior do layout de contato */
+  }
+
+  #contact-info {
+    margin-right: 0; /* Remove a margem direita do bloco de informações de contato */
+    margin-bottom: 20px; /* Adiciona margem inferior ao bloco de informações de contato */
+  }
+
+  #footer {
+    margin-top: 30px; /* Reduz a margem superior do rodapé */
+    margin-bottom: 0; /* Remove a margem inferior do rodapé */
+  }
+}
